@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SelectionStatement {
+public class IfStatement {
     //single branch
     public static void main(String[] args){
         System.out.println("------single branch------");
