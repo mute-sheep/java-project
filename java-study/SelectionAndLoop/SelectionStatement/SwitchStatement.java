@@ -19,5 +19,13 @@ public class SwitchStatement{
                 res = "不及格";
         }
         System.out.println(res);
+        int number2 = 70;
+        switch (number2) {
+            case 90 -> System.out.println("优秀");  
+            case 80 -> System.out.println("良好");
+            case 70 -> System.out.println("一般");
+            case 60 -> System.out.println("合格");
+            default -> System.out.println("不合格");
+        }
     }
 }
