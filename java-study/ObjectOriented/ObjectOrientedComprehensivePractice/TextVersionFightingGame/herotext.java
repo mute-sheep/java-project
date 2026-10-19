@@ -47,10 +47,6 @@ public class herotext {
         }
     }
 
-    /**
-     * 战斗方法：attacker攻击者，defender防御者
-     * @return 最终造成伤害
-     */
     public static double attack(role attacker,role defender,int atkIdx,int defIdx,int round){
         System.out.println("第" + round + "回合");
         String[] atkSkills = attacker.getAttackskillname();
